@@ -1,0 +1,1 @@
+enum GlobalBtnType { withIcon, withoutIcon }

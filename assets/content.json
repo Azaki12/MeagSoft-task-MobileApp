@@ -1,0 +1,98 @@
+{"intents": [
+        {"tag": "1",
+         "patterns": ["Hi","Hey", "Is anyone there?", "Hello","levi","hello levi"],
+         "responses": ["Hi", "Hello", "Hi there, how can I help you?", "Good to see you"],
+         "context_set": ""
+        },
+        {"tag": "2",
+         "patterns": ["Who are you","What is your name","Do you have a name"],
+         "responses": ["Hi, I'm Levi", "My name is Levi", "I'm Levi, your virtual assistant for Autism questions"],
+         "context_set": ""
+        },
+
+        {"tag": "3",
+         "patterns": [" "],
+         "responses": ["Sorry, I can't understand you", "Please give me more information", "Not sure I understand"],
+         "context_set": ""
+	},
+
+        {"tag": "4",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through your journey with your awesome child, and in knowing more about Autism, giving you some usefule tips"],
+         "context_set": ""
+	},
+        {"tag": "5",
+         "patterns": ["What is Autism","What is ASD", "What is autism spectrum disorder", "asd", "autism"],
+         "responses": ["Autism refers to a broad range of conditions characterized by challenges with social skills, repetitive behaviors, speech and nonverbal communication."],
+         "context_set": ""
+        },
+        {"tag": "6",
+         "patterns": ["How is autism diagnosed", "Is there a test for autism"],
+         "responses": ["There is no blood test to diagnose autism spectrum disorder. A diagnosis is made based on behaviors. In order to be diagnosed with autism, an individual must display deficits in social communication and social interaction, and show restrictive and repetitive behavior"],
+         "context_set": ""
+        },
+        {"tag": "7",
+         "patterns": ["How are you","What's up", "How you are doing"],
+         "responses": ["I'm fine, Thanks for asking.", "I'm doing well", "I'm fine. And you?"],
+         "context_set": ""
+        },
+        {"tag": "8",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.", "See you!"],
+         "context_set": ""
+        },
+ 	{"tag": "9",
+         "patterns": ["How can I find out what caused my child's autism", "What is the reasons of autism","What is the cause of autism"],
+         "responses": ["In most individuals it is currently not possible to identify the exact cause of autism. There are a few genetic syndromes associated with autism", "At this time, there is no evidence that specific chemicals in the environment, immunization practices or dietary differences cause autism."],
+         "context_set": ""
+        },
+
+        {"tag": "10",
+
+         "patterns": ["Can you tell which side of the family the autism came from", "Can we tell which side of the family the autism came from"],
+         "responses": ["If your child has autism and you are interested in genetic testing, you can ask your child's doctor for a referral to a medical geneticist. After conducting a detailed family history and physical exam of your child, the doctor may recommend genetic testing, which usually is a blood test and sometimes a urine test."],
+         "context_set": ""
+        },
+        {"tag": "11",
+         "patterns": ["How can I find the best treatments for my child", "What is the best treatment for autism","How can i find the best treatments for autism"],
+         "responses": ["Research suggests that early intensive behavioral intervention, based on applied behavioral analysis, is effective at improving language, function and behavior in individuals with autism. There are two drugs, risperidone and aripiprazole, that can improve challenging behaviors such as emotional distress, aggression, hyperactivity and self-injury, but these drugs do not lead to improvements in social skills or communication. Interventions focused on parent training and cognitive behavioral therapy can improve social skills, communication, language use and management of challenging behaviors."],
+         "context_set": ""
+        },
+        {"tag": "12",
+         "patterns": ["What progress has been made so far in autism research", "What progress has been made in asd research"],
+         "responses": ["In the past five years, scientists have made significant progress in discovering the genes that contribute to autism. With this knowledge, there has also been much progress in understanding what might be different in the cells of the brain of a person with autism."],
+         "context_set": ""
+        },
+        {"tag": "13",
+         "patterns": ["How can I help my child?", "How can I help child with autism?", "Give me tips", "Tips"],
+         "responses": ["Make an effort to catch them doing something good, reward them when they act appropriately or learn a new skill.", "Create a private space in your home where your child can relax", "If you are observant and aware, you can learn to pick up on the nonverbal cues that children with ASD use to communicate", "Schedule playtime when your child is most alert and awake.", "Create a personalized autism treatment plan", "Join an ASD support group such this app, is a great way to meet other families dealing with the same challenges you are. Parents can share information, get advice, and lean on each other for emotional support. Just being around others in the same boat and sharing their experience", "Create consistency in the child’s environment which is the best way to reinforce learning. Find out what the child’s therapists are doing and continue their techniques at home.", "Pay attention to your child’s sensory sensitivities and Figure out what sights, sounds, smells, movements, and tactile sensations trigger your kid’s “bad” or disruptive behaviors and what elicits a positive response.", "Use the social stories, social stories can be a useful way of explaining how to manage anger.", "Find out if the child is being bullied, the childs with ASD are at more risk of being bullied than their peers. Some will have difficulty recognising what bullying is, and may not be able to describe what has happened."],
+         "context_set": ""
+        },
+        {"tag": "14",
+         "patterns": ["Thank you", "Thanks", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["You are welcome", "With my pleasure", "Happy to help!", "Any time!"],
+         "context_set": ""
+        },
+        {"tag": "15",
+         "patterns": ["I'm fine", "I'm doing well", "I am fine"],
+         "responses": ["That's great", "Awesome!", "Glad to hear that!"],
+         "context_set": ""
+        },
+        {"tag": "16",
+         "patterns": ["who made you", "who the team that made and developed you", "Who the people who built and developed you?"],
+         "responses": ["I was built and developed by a team of five computer engineers: Bassant Magdy, Medhat Mostafa, Youssef Hussein, Ahmed Zaki, and Muhab Sherif, You can reach us on levi.contactus@gmail.com", "I was built and developed by a team of five computer engineers: Muhab Sherif, Ahmed Zaki, Medhat Mostafa, Bassant Magdy, and Youssef Hussein, You can reach us on levi.contactus@gmail.com"],
+         "context_set": ""
+        },
+        {"tag": "17",
+         "patterns": ["i am sorry", "sorry about that"],
+         "responses": ["It is okay", "Never mind","Do not be, It is okay!"],
+         "context_set": ""
+        },
+        {"tag": "18",
+         "patterns": ["How can i reach you?", "How can contact you", "Technical Support email", "i want to report a bug and error"],
+         "responses": ["You can contact us through levi.contactus@gmail.com", "You can reach us on levi.contactus@gmail.com", "For any information please, contact us through levi.contactus@gmail"],
+         "context_set": ""
+        }
+
+   ]
+}
